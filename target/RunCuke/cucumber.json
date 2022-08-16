@@ -1,0 +1,332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3687624800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User should navigate site and buy a product",
+        "description": "",
+        "id": "as-user-i-want-to-check-the-functionality-of-cornerstone-demo;user-should-navigate-site-and-buy-a-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 595880300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 164969600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1498725300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Kitchen tab",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iClickOnKitchenTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 861603900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the product to buy",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iClickOnTheProductToBuy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59005300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on add to chart",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iClickOnAddToChart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2150165000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Proceed to checkout",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iClickOnProceedToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581108400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the \"$120.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$120.00",
+                  "offset": 14
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iVerifyThe(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244500300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I agree with privacy policy",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iAgreeWithPrivacyPolicy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119065600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter email \"ron1@gamil.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ron1@gamil.com",
+                  "offset": 15
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63763300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on continue as guest",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iClickOnContinueAsGuest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1260566500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter First Name \"Ron\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ron",
+                  "offset": 20
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98406700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter Last Name \"Lobo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lobo",
+                  "offset": 19
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226586400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter Address \"101 london Road\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "101 london Road",
+                  "offset": 17
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iEnterAddress(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108123200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter City  \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 15
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iEnterCity(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105956300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter Postal Code \"UB99UB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UB99UB",
+                  "offset": 21
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iEnterPostalCode(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2182163400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Phone Number \"078123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "078123456789",
+                  "offset": 22
+                }
+              ],
+              "location": "TieredWireBasketStepDefs.iEnterPhoneNumber(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2204549100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click Continue",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iClickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1523992600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter Payment method",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iEnterPaymentMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58419500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click place order",
+            "match": {
+              "location": "TieredWireBasketStepDefs.iClickPlaceOrder()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As user I want to Check the Functionality of cornerstone Demo",
+    "description": "",
+    "id": "as-user-i-want-to-check-the-functionality-of-cornerstone-demo",
+    "keyword": "Feature",
+    "uri": "TieredWireBasket.feature"
+  }
+]
